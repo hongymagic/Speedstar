@@ -1,0 +1,38 @@
+{
+  "name": "Speedstar.safariextension",
+  "version": "1.0.0",
+  "description": "Safari extension to add playback speed controls on Youtube, Netflix and other video sites",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "browserify --debug --transform reactify main.jsx > main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hongymagic/Speedstar.git"
+  },
+  "keywords": [
+    "netflix",
+    "facebook",
+    "video",
+    "speed",
+    "playback",
+    "rate",
+    "youtube"
+  ],
+  "author": "David G. Hong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hongymagic/Speedstar/issues"
+  },
+  "homepage": "https://github.com/hongymagic/Speedstar",
+  "dependencies": {
+    "jquery": "^2.1.3",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "reactify": "^1.0.0"
+  }
+}

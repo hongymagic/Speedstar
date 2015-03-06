@@ -1,0 +1,53 @@
+/**
+ * Positioning of the overall container
+ */
+#nps-container {
+	position: absolute!important;
+	z-index: 1000!important;
+}
+
+#nps-container,
+#nps-container * {
+	box-sizing: border-box;
+}
+
+/**
+ * Playback rate controls
+ */
+#nps-container #nps-controls {
+	padding: 15px!important;
+}
+
+#nps-container #nps-controls.hidden {
+	display: none;
+}
+
+#nps-container #nps-controls button {
+	border: 1px solid rgba(0, 0, 0, 0.4)!important;
+	background-color: rgba(0, 0, 0, 0.8)!important;
+	border-right: 0!important;
+}
+
+#nps-container #nps-controls button:first-child {
+	border-radius: 5px 0px 0px 5px!important;
+}
+
+#nps-container #nps-controls button:last-child {
+	border-radius: 0px 5px 5px 0px!important;
+	border-right: 1px solid rgba(0, 0, 0, 0.4)!important;
+}
+
+#nps-container #nps-controls button {
+	padding: 3px 6px;
+	width: 50px;
+	color: #fff!important;
+	font-weight: 300!important;
+}
+
+#nps-container #nps-controls button:hover,
+#nps-container #nps-controls button:disabled,
+#nps-container #nps-controls button.active {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ccc!important;
+	font-weight: 800!important;
+}
