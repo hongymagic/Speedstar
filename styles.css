@@ -38,8 +38,9 @@
 }
 
 #nps-container #nps-controls button {
-	padding: 3px 6px;
-	width: 50px;
+	padding: 5px 5px;
+	width: 40px;
+	height: 40px;
 	color: #fff!important;
 	font-weight: 300!important;
 }
@@ -47,7 +48,7 @@
 #nps-container #nps-controls button:hover,
 #nps-container #nps-controls button:disabled,
 #nps-container #nps-controls button.active {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.2);
 	color: #ccc!important;
 	font-weight: 800!important;
 }
